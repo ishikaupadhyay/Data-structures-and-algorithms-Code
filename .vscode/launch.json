@@ -1,0 +1,84 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "sqaure",
+            "request": "launch",
+            "mainClass": "PATTERNS.sqaure",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "decrLetterTri",
+            "request": "launch",
+            "mainClass": "PATTERNS.decrLetterTri",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "increLetterTri",
+            "request": "launch",
+            "mainClass": "PATTERNS.increLetterTri",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "increasenumtriangle",
+            "request": "launch",
+            "mainClass": "PATTERNS.increasenumtriangle",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "numberCrown",
+            "request": "launch",
+            "mainClass": "PATTERNS.numberCrown",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "leftNumTri",
+            "request": "launch",
+            "mainClass": "PATTERNS.leftNumTri",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "binaryTriangle",
+            "request": "launch",
+            "mainClass": "PATTERNS.binaryTriangle",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "leftTraingle",
+            "request": "launch",
+            "mainClass": "PATTERNS.leftTraingle",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
