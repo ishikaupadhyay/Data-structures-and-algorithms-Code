@@ -7,7 +7,7 @@ class Solution {
             newArr[i - 1] = nums[i];
         }
         newArr[n - 1] = nums[0];
-//copy back!
+//copy back!(this printss the new array actually)
         for (int i = 0; i < n; i++) {
             nums[i] = newArr[i];
         }
