@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "leftrotateMethodI",
+            "request": "launch",
+            "mainClass": "leftrotateMethodI",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "BubbleSort",
             "request": "launch",
             "mainClass": "BubbleSort",
