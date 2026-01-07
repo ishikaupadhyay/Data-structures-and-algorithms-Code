@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotationK",
+            "request": "launch",
+            "mainClass": "RotationK",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "leftRotateMethII",
             "request": "launch",
             "mainClass": "leftRotateMethII",
