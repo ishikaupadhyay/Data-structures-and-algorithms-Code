@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotationbyKMethII",
+            "request": "launch",
+            "mainClass": "RotationbyKMethII",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "RotationK",
             "request": "launch",
             "mainClass": "RotationK",
