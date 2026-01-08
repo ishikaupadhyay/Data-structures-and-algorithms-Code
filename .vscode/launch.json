@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "move0toendofArrayMethII",
+            "request": "launch",
+            "mainClass": "move0toendofArrayMethII",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "moveZeroestoEnd",
             "request": "launch",
             "mainClass": "moveZeroestoEnd",
