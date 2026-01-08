@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnionTreeMap",
+            "request": "launch",
+            "mainClass": "UnionTreeMap",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "move0toendofArrayMethII",
             "request": "launch",
             "mainClass": "move0toendofArrayMethII",
