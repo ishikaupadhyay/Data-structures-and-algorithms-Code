@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UniounSet",
+            "request": "launch",
+            "mainClass": "UniounSet",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "UnionTreeMap",
             "request": "launch",
             "mainClass": "UnionTreeMap",
