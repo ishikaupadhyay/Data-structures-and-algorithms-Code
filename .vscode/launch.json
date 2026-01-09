@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindMissingMeth1",
+            "request": "launch",
+            "mainClass": "FindMissingMeth1",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "UnionMeth3",
             "request": "launch",
             "mainClass": "UnionMeth3",
