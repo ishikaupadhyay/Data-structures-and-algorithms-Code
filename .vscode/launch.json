@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "UnionMeth3",
+            "request": "launch",
+            "mainClass": "UnionMeth3",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
+            "name": "UnionMeth",
+            "request": "launch",
+            "mainClass": "UnionMeth",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "UniounSet",
             "request": "launch",
             "mainClass": "UniounSet",
