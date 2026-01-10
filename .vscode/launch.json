@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumOccurenceOnceMethI",
+            "request": "launch",
+            "mainClass": "NumOccurenceOnceMethI",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "FindMissingMeth1",
             "request": "launch",
             "mainClass": "FindMissingMeth1",
