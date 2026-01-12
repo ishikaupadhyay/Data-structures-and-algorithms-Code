@@ -12,7 +12,7 @@ public class UnionTreeMap {
         }
 
         for (int i = 0; i < m; i++) { // adding values of arr2 in the tree created
-            freq.put(arr2[i], freq.getOrDefault(arr1[i], 0) + 1);// freq.getorDf- task: in the arr2 , whatevr elements
+            freq.put(arr2[i], freq.getOrDefault(arr2[i], 0) + 1);// freq.getorDf- task: in the arr2 , whatevr elements
                                                                  // comes..index+1 , if not 0
         }
 
