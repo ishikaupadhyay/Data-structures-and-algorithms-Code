@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestSubarrayMethII",
+            "request": "launch",
+            "mainClass": "longestSubarrayMethII",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "longestSubarray",
             "request": "launch",
             "mainClass": "longestSubarray",
