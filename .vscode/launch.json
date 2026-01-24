@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TwoSumMethII",
+            "request": "launch",
+            "mainClass": "TwoSumMethII",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "TwoSum",
             "request": "launch",
             "mainClass": "TwoSum",
