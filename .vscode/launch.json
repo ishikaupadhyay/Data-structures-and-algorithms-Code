@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "majiorityn2",
+            "request": "launch",
+            "mainClass": "majiorityn2",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "TwoSumMethII",
             "request": "launch",
             "mainClass": "TwoSumMethII",
