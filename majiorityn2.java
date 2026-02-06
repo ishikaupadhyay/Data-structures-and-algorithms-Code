@@ -9,7 +9,7 @@ public class majiorityn2 {
             }
 
             if (cnt > (arr.length) / 2) {
-                return arr[i];
+                return  arr[i];
             }
         } 
         return -1;
