@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StockBuyandSell1",
+            "request": "launch",
+            "mainClass": "StockBuyandSell1",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "majiorityn2",
             "request": "launch",
             "mainClass": "majiorityn2",
