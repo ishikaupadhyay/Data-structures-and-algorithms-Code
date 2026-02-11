@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SearchXinArrayRecursive",
+            "request": "launch",
+            "mainClass": "SearchXinArrayRecursive",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "StockBuyandSell1",
             "request": "launch",
             "mainClass": "StockBuyandSell1",
