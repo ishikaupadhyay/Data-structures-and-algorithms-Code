@@ -1,7 +1,7 @@
 public class FirstandLastOccurence2 {
 
     public int FirstOccurence(int arr[], int target) {
-
+//using binary searches 
         int low = 0;
         int high = arr.length - 1;
 
