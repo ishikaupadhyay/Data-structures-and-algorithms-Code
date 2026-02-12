@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstandLastOccurence1",
+            "request": "launch",
+            "mainClass": "FirstandLastOccurence1",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "SearchXinArrayRecursive",
             "request": "launch",
             "mainClass": "SearchXinArrayRecursive",

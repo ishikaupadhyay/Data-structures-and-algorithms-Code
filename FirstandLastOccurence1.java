@@ -32,4 +32,4 @@ public class FirstandLastOccurence1 {
         System.out.println("LAST OCCURENCE OF TARGET " + target + " IS = " + ans);
         System.out.println("FIRST OCCURENCE OF TARGET " + target + " IS = " + anss);
     }
-}a
+}
