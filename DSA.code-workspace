@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../WEBD-ProgrammingWithMosh"
+		},
+		{
+			"path": "../VERY MINI PROJECT USING HTML & CSS"
+		},
+		{
+			"path": "../JAVA SCRIPT"
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true,
+		"liveServer.settings.multiRootWorkspaceName": "VERY MINI PROJECT USING HTML & CSS"
+	}
+}
