@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "findrotations3",
+            "request": "launch",
+            "mainClass": "findrotations3",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "findrotations2",
             "request": "launch",
             "mainClass": "findrotations2",
