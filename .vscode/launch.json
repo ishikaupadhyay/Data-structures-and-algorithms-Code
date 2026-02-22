@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxConsIII3",
+            "request": "launch",
+            "mainClass": "MaxConsIII3",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "longestNonRepeatingSubstring2",
             "request": "launch",
             "mainClass": "longestNonRepeatingSubstring2",
