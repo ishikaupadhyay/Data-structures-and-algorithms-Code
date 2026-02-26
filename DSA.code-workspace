@@ -4,17 +4,10 @@
 			"path": "."
 		},
 		{
-			"path": "../WEBD-ProgrammingWithMosh"
-		},
-		{
-			"path": "../VERY MINI PROJECT USING HTML & CSS"
-		},
-		{
-			"path": "../JAVA SCRIPT"
+			"path": "../Ledger"
 		}
 	],
 	"settings": {
-		"java.debug.settings.onBuildFailureProceed": true,
-		"liveServer.settings.multiRootWorkspaceName": "VERY MINI PROJECT USING HTML & CSS"
+		"java.debug.settings.onBuildFailureProceed": true
 	}
 }
