@@ -8,7 +8,8 @@ public class nextGreaterEletoright {
         int newArr[] = new int[n];
         Arrays.fill(newArr, -1);// new arr of -1 se bhar diaa hai
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++)
+        {
             int currEle = arr[i];
 
             for (int j = i + 1; j < n; j++) {

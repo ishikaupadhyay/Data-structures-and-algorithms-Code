@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nextGreaterEletoright",
+            "request": "launch",
+            "mainClass": "nextGreaterEletoright",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "MaxConsIII3",
             "request": "launch",
             "mainClass": "MaxConsIII3",

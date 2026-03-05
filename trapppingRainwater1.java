@@ -25,7 +25,7 @@ public class trapppingRainwater1 {
     }
 
     public static void main(String[] args) {
-        int arr[] = {4,2,0,3,2,5 };
+        int arr[] = { 4, 2, 0, 3, 2, 5 };
         trapppingRainwater1 result = new trapppingRainwater1();
         System.out.println(result.traprainwater(arr));
     }
