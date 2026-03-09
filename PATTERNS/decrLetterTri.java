@@ -1,4 +1,4 @@
-package PATTERNS;
+
 
 public class decrLetterTri {
    static void pattern(int n) {
