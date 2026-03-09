@@ -20,7 +20,7 @@ public class nextGreaterElement {
                 resultarr[i] = st.peek();// jo sbse top pr hai wahi ans hai!
             }
             st.push(arr[i]);
-        } 
+        }     
         return resultarr;
     }
 
