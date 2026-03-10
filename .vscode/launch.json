@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "insertionDLL",
+            "request": "launch",
+            "mainClass": "insertionDLL",
+            "projectName": "DSA_859af820"
+        },
+        {
+            "type": "java",
             "name": "insertionLL",
             "request": "launch",
             "mainClass": "LinkedList.insertionLL",
