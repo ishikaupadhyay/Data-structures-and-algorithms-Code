@@ -1,36 +1,36 @@
-public class FindMiddle2 {
+public class ReverseLL2 {
 
     static class Node {
         int data;
         Node next;
+        Node prev;
 
-        Node(int data1, Node next1) {
+        Node(int data1, Node next1, Node prev1) {
             data = data1;
+            prev = prev1;
             next = next1;
         }
 
         Node(int data1) {
             data = data1;
             next = null;
+            prev = null;
         }
     }
 
     public static class Solution {
 
-        static Node ReturnMiddle(Node head) {
-            /*
-             * APPROACH :
-             * fast ptr : jumps 2 elments aage aage
-             * SLOW ptr : 1 -1 aage badhta haii
-             */
-            Node slow = head;
-            Node fast = head;
+        public Node reverseLL(Node head) {
+            Node temp = head;
+            Node prev = null;
 
-            while (fast != null && fast.next != null && slow != null) {
-                fast = fast.next.next;
-                slow = slow.next;
+            while (temp != null) {
+                Node front = temp.next;
+                temp.next = prev;
+                prev = temp;
+                temp = front;
             }
-            return slow;
+            return prev;
         }
 
     }
@@ -49,7 +49,13 @@ public class FindMiddle2 {
             temp = temp.next;
         }
         System.out.println();
-        Node middlNode = Solution.ReturnMiddle(head);
-        System.out.println("MIDDLE ELEMENT IN THE LL : " + middlNode.data);
+        Solution sol = new Solution();
+        head = sol.reverseLL(head);
+
+        System.out.println("REVERSED LINKED LIST : ");
+        while (head != null) {
+            System.out.print(head.data + " ");
+            head = head.next;
+        }
     }
 }
