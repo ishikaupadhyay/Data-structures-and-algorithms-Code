@@ -42,6 +42,8 @@ public class RemoveNthfromEnd2 {
             }
             if (fast == null)
                 return head.next;
+
+            
             while (fast.next != null) {
                 slow = slow.next;
                 fast = fast.next;
