@@ -1,0 +1,25 @@
+class Solution {
+	void segregate0and1(int[] arr) {
+		// code here
+		int n = arr.length;
+		
+		int count0=0;
+		int count1=0;
+		
+		for (int newArr:arr) {
+			if (newArr == 0)count0++;
+			if (newArr == 1)count1++;
+		}
+		
+		int index = 0;
+		
+		while (count0>0) {
+			arr[index++] = 0;
+			count0--;
+		}
+		while (count1>0) {
+			arr[index++] = 1;
+			count1--;
+		}
+	}
+}
