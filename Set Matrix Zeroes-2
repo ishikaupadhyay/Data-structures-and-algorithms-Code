@@ -1,0 +1,35 @@
+class Solution {
+    public void setZeroes(int[][] matrix) {
+
+        //approach :2
+      /*form 2 arrows (1 for row and 2 for col , 
+      1-to track rows that needs to be zeroed and other for col similarly!
+      so..1st pass mai mark krdo kaha kaha krna hai 0
+      2nd pass mai , actual mai 0 rkhdo unn rows &col ki jagah!
+      */
+     
+      int m=matrix.length;
+      int n =matrix[0].length;
+
+      boolean[]row=new boolean[m];
+      boolean[]col=new boolean[n];
+      
+      for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(matrix[i][j]==0)
+            {
+                row[i]=true;
+                col[j]=true;
+            }
+        }
+      }
+//2nd pass :actual mai 0 likhdo unn jagah pr 
+for(int i =0;i<m;i++){
+    for(int j =0;j<n;j++){
+        if(row[i]||col[j]){
+            matrix[i][j]=0;
+        }
+    }
+}
+    }
+}
