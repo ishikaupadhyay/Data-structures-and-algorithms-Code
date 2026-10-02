@@ -1,0 +1,17 @@
+class Solution {
+  public int sumHighestAndLowestFrequency(int[] nums) {
+    
+  HashMap <Integer,Integer> map=new HashMap<>();
+
+  for(int arr:nums){
+    map.put(arr,map.getOrDefault(arr,0)+1);
+  }
+  int maxFreq=0;
+  int minfreq=Integer.MAX_VALUE;
+
+  for(int freq:map.values()){
+    maxFreq=Math.max(maxFreq,freq);
+    minfreq=Math.min(minfreq,freq);
+  }
+  return maxFreq+minfreq;}
+}
