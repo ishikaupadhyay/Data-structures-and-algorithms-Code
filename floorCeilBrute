@@ -1,0 +1,23 @@
+class Solution {
+    public int[] getFloorAndCeil(int[] nums, int x) 
+    {
+       //floor : largest element in the array , and smaller /equal than x ;
+       //ceil : smallest element in the array and greater or equal than x;
+
+       int floor =-1;
+       int ceil=-1;
+
+       for(int num :nums){
+        if(num<=x){
+            floor=Math.max(floor,num);
+        }
+
+
+        if(num>=x){
+            if(ceil==-1||num<ceil){
+                ceil=num;
+            }
+        }
+       }return new int[]{floor,ceil};
+    }
+}
