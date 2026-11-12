@@ -1,0 +1,13 @@
+class Solution {
+  public int arraySum(int[] nums) {
+    return helper(nums, 0);
+  }
+
+  private int helper(int nums[], int index) {
+    if (nums.length == index) {
+      return 0;
+    } else {
+      return nums[index] + helper(nums, index + 1);
+    }
+  }
+}
